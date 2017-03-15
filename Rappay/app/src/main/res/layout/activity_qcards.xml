@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rappay.com.rohit.rapidgrid.QCards_Activity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+
+    <include layout="@layout/no_qcards"/>
+
+    <ImageView
+        android:id="@+id/addActionButton"
+        android:layout_width="@dimen/fab_radius"
+        android:layout_height="@dimen/fab_radius"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:elevation="@dimen/fab_elevation"
+        android:src="@drawable/ic_add"
+        android:padding="15dp"
+        android:background="@drawable/fab_ripple"
+
+        android:onClick="GetQrCardDetails"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/QCard_pay_coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="rappay.com.rohit.rapidgrid.QCardsScan_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ScanQCard"
+        android:onClick="scanQrCard"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Qcard_scan_btn"
+
+    />
+    </LinearLayout>
+
+    <include layout="@layout/content_qcards_scan_r"
+        android:id="@+id/Qcard_reponselayout"
+
+
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99bbff"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99bbff">
+
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Status: Ready for deposit"
+            android:layout_alignBottom="@+id/text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            />
+
+
+
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="5dp"
+android:background="#99bbff"
+    >
+<TextView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:text="Amount:5000"
+    android:layout_alignBottom="@+id/zc1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="15dp"
+    /></LinearLayout>
+
+</LinearLayout>

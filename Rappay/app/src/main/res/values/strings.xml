@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Rappay</string>
+
+    <string name="profile">Profile</string>
+    <string name="accountsummary">Accounts</string>
+    <string name="transaction">Transaction</string>
+    <string name="qpayment">Q Payment</string>
+    <string name="echeque">E Cheque</string>
+
+    <string name="viewtransactions">Mini Statement</string>
+    <string name="planner">Savings Planner</string>
+    <string name="graphs">View Graphs</string>
+    <string name="suggestions">Suggestions</string>
+
+    <string name="pay">QPay</string>
+    <string name="billGenerator">QBill</string>
+    <string name="qcards">QCard</string>
+    <string name="qscanner">QCardScan</string>
+
+    <string name="gcheque">Generate  ECheque</string>
+    <string name="inchequelist">In ECheque List</string>
+    <string name="outchequelist">Out ECheque List</string>
+    <string name="SRCheque">Send/Recieve ECheque</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="Paynow">Pay Now</string>
+    <string name="ScanQCard">Scan QCard</string>
+    <string name="Signup">Sign Up</string>
+    <string name="ReturningUser">Returning User</string>
+    <string name="Register">Register</string>
+    <string name="FullName">Full Name</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="hEmail">Email</string>
+    <string name="hUsername">Username</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="Password">Password</string>
+    <string name="repassword">Re-Type Password</string>
+    <string name="ProfileName">Profile Name</string>
+    <string name="ContactNo">Contact No</string>
+    <string name="Number">Number</string>
+    <string name="AlternativeContacts">Alternative Contacts</string>
+
+    <string name="no_qcards">No QCards Added</string>
+    <string name="imagedes">Smiley image</string>
+    <string name="accountsummaryactivity">Account Summary</string>
+    <string name="hAccountNumber">Account Number</string>
+    <string name="hCardNumber">Card Number</string>
+    <string name="hCustomerID">Customer ID</string>
+    <string name="AccountRefresh">Balance Refresh</string>
+    <string name="hAccountType">Account Type</string>
+    <string name="hAccountBalance">Account Balance</string>
+    <string name="hAccountBalanceDate">Balance Date</string>
+
+
+    <string name="hBillAmount">Bill Amount</string>
+    <string name="hPayeedesc">Payee Description</string>
+    <string name="TransactionType">Transaction Type</string>
+
+
+    <string name="qpayPaynow">Pay Now!</string>
+
+
+    <string-array name="Type_of_Transaction">
+        <item>Electricity</item>
+        <item>Car Insurance</item>
+        <item>Fuel</item>
+        <item>PMR</item>
+        <item>Car Insurance</item>
+        <item>Mutual Fund Payments</item>
+        <item>Home Loan EMI</item>
+        <item>Restaurant ticket</item>
+        <item>Movie Ticket</item>
+        <item>School fee payment</item>
+        <item>Mutual Fund Payments</item>
+
+    </string-array>
+
+    <string name="hPin">PIN</string>
+    <string name="showgraph">Show Graph</string>
+
+    <string name="hcardlimit">Limit</string>
+    <string name="SSave">Save</string>
+
+</resources>

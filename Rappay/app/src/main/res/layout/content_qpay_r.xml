@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/qpay_ipl_BillAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/qpay_BillAmount_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hBillAmount"
+                android:enabled="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/secondaryText"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/qpay_ipl_Payeedesc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/qpay_Payeedesc_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hPayeedesc"
+                android:enabled="false"
+                android:maxLines="1"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/secondaryText"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/qpay_ipl_TransactionType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/qpay_TransactionType_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TransactionType"
+                android:enabled="false"
+                android:maxLines="1"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/secondaryText"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            >
+            <Button
+                android:id="@+id/qpay_Paynow_btn"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="30dp"
+                android:text="@string/qpayPaynow"
+                android:textColor="@color/white"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

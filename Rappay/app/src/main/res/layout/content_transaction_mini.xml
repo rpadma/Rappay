@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="rappay.com.rohit.rapidgrid.Trans_MiniActivity"
+        tools:showIn="@layout/activity_trans__mini">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <!-- 1 layout -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/trans_TransactionDate1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            </LinearLayout>
+
+        <!-- 2 layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 3 layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 4 layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 5 layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 6 layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- 7 layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_TransactionDate7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Date:"
+                />
+            <TextView
+                android:id="@+id/trans_TransactionAmount7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Amount:"
+                />
+            <TextView
+                android:id="@+id/trans_Type7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Type:"
+                />
+            <TextView
+                android:id="@+id/trans_ClosingBalance7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Closing Balance:"
+                />
+
+            <TextView
+                android:id="@+id/trans_Comments7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transaction Type:"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

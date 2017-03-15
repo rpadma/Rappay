@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:expandable="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rappay.com.rohit.rapidgrid.Echeq_InChequeActivity">
+
+
+    <com.andexert.expandablelayout.library.ExpandableLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandable:el_headerLayout="@layout/zview_header1"
+        expandable:el_contentLayout="@layout/zcustomcontent1"
+        android:background="#004de6"/>
+
+    <com.andexert.expandablelayout.library.ExpandableLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandable:el_headerLayout="@layout/zview_header2"
+        expandable:el_contentLayout="@layout/zcustomcontent2"
+        android:layout_below="@+id/first"
+        android:layout_marginTop="20dp"
+        android:background="#004de6"/>
+
+    <com.andexert.expandablelayout.library.ExpandableLayout
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandable:el_headerLayout="@layout/zview_header3"
+        expandable:el_contentLayout="@layout/zcustomcontent3"
+        android:layout_below="@+id/second"
+        android:layout_marginTop="20dp"
+        android:background="#004de6"/>
+
+
+
+
+
+</RelativeLayout>

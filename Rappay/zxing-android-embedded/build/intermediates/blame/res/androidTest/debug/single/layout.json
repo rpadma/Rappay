@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\Android_Pay\\Rappay_grid\\RapidGrid\\zxing-android-embedded\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_capture.xml",
+        "source": "G:\\Android_Pay\\Rappay_grid\\RapidGrid\\zxing-android-embedded\\build\\intermediates\\bundles\\debug\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "G:\\Android_Pay\\Rappay_grid\\RapidGrid\\zxing-android-embedded\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "G:\\Android_Pay\\Rappay_grid\\RapidGrid\\zxing-android-embedded\\build\\intermediates\\bundles\\debug\\res\\layout\\zxing_barcode_scanner.xml"
+    }
+]

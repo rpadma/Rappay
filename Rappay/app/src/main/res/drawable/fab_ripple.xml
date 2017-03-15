@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fab_active" android:state_enabled="true"
+        android:state_pressed="true"/>
+    <item android:drawable="@drawable/fab_active" android:state_enabled="true"
+        android:state_focused="true"/>
+    <item android:drawable="@drawable/fab_active" android:state_enabled="true"
+        android:state_selected="true"/>
+    <item android:drawable="@drawable/fab_active" android:state_active="true"
+        android:state_enabled="true"/>
+
+    <item android:drawable="@drawable/fab_dormant" android:state_pressed="false"/>
+    <item android:drawable="@drawable/fab_dormant" android:state_focused="false"/>
+    <item android:drawable="@drawable/fab_dormant" android:state_selected="false"/>
+    <item android:drawable="@drawable/fab_dormant" android:state_active="false"/>
+</selector>
